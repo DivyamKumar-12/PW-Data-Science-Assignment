@@ -1,0 +1,105 @@
+Q1
+Python was developed by Guido van Rossum and was first released in 1991
+
+Q2
+Python is a multi-paradigm programming language, which means that it supports multiple programming styles. It supports the following programming paradigms:
+
+Object-Oriented Programming (OOP) - Supports encapsulation, inheritance, and polymorphism.
+
+Imperative Programming - Supports statements that change a program's state.
+
+Functional Programming - Supports functions that are treated as first-class objects, which can be passed as arguments, returned from functions, or assigned to variables.
+
+Procedural Programming - Supports structured programming, which involves breaking a program down into procedures or functions.
+
+Scripting - Python can be used as a scripting language to automate repetitive tasks.
+
+Overall, Python is designed to be highly readable and is a good language for beginners to learn programming.
+
+
+Q3
+Yes, Python is case-sensitive when dealing with identifiers. In other words, it differentiates between uppercase and lowercase letters in variable names, function names, and other identifiers. For example, the variable name "myVariable" is different from "myvariable" or "myVariable".
+
+Q4
+The correct file extension for a Python source code file is ".py". For example, if we have a Python script named "hello_world.py", we can run it by calling "python hello_world.py" in the terminal or command prompt
+
+Q5
+Python is an interpreted language. This means that the source code is executed line by line, rather than being compiled into machine code and executed as a standalone program.
+
+Q6
+There are several types of code blocks in Python, including:
+
+Function definition: A block of code that performs a specific task and can be called multiple times. Functions are defined using the "def" keyword.
+
+Conditional blocks: A block of code that only executes if a certain condition is met. This is defined using the "if" keyword.
+
+Loop blocks: A block of code that repeats a set of statements until a certain condition is met. There are two types of loops in Python: "for" loops and "while" loops.
+
+Try-except blocks: A block of code that allows you to handle exceptions (errors) gracefully. This is defined using the "try" and "except" keywords.
+
+Class definition: A blueprint for creating objects (instances). Classes are defined using the "class" keyword
+
+Q7
+In Python, the character "#" is used to give a single line comment.
+
+Q8
+The sys module in Python provides a function called sys.version that returns a string indicating the version of Python you are running
+
+Q9
+
+In Python, anonymous functions (also known as lambda functions) can be created at runtime using the lambda keyword. The lambda keyword allows us to create small, throw-away functions in a single line
+
+Q10
+pip is an acronym for "Pip Installs Packages." It is a package management system used to install and manage packages (collections of modules) for Python.
+
+Q11
+Python has many inbuilt functions that are available for use in our code. Here are a few of the most commonly used ones:
+
+print(): This function is used to display output to the screen.
+
+len(): This function returns the length of a string, list, tuple, or other data structure.
+
+int(): This function is used to convert a string or a floating-point number to an integer.
+
+float(): This function is used to convert a string or an integer to a floating-point number.
+
+str(): This function is used to convert a number or another data type to a string.
+
+min(): This function returns the minimum value from a sequence (e.g. list, tuple) of numbers
+
+Q12
+In Python, the maximum length of an identifier is determined by your operating system and the amount of memory available, but it is typically not limited by the Python language itself.
+
+Q13
+Python is a popular and versatile programming language that offers many benefits to developers. Here are some of the most significant advantages of using Python:
+1.Easy to learn and use
+2.Large community and libraries
+3.Easy to integrate
+4.Dynamic typing:
+
+Q14
+In Python, memory management is automatic and handled by the Python interpreter. The Python interpreter uses a memory manager to manage the memory used by our program, including allocating memory for new objects and deallocating memory when objects are no longer needed.
+
+Q15
+Here's how we can install Python on a Windows machine and set the environment variables:
+
+1.Download the Python Installer: Visit the official Python website at https://www.python.org/ and click the Download button to download the latest version of Python.
+
+2.Run the Python Installer: Double-click the downloaded file and follow the instructions to install Python on your Windows machine. Make sure to select the option to add Python to your environment variables during the installation process.
+
+3.Verify the Installation: To verify that Python has been installed correctly, open the Command Prompt and type python. If the installation was successful, you should see the Python prompt.
+
+4.Set the Environment Variables: To set the environment variables, follow these steps:
+
+5.Right-click the Windows Start button and select System from the context menu.
+6.Click the Advanced system settings link.
+7.Click the Environment Variables button.
+8.In the System Variables section, scroll down and find the Path variable.
+9.Click the Edit button to edit the Path variable.
+10.Click the New button to add a new entry to the Path variable, and enter the path to the Python installation directory. For example, if you installed Python in the default location, the path would be C:\PythonXX\.
+11.Click OK to save the changes and close the dialog boxes.
+Now we have successfully installed Python on your Windows machine and set the environment variables. we can start using Python
+
+
+Q16
+Yes, indentation is required in Python. Indentation is used to define blocks of code, such as functions, loops, and conditional statements. In Python, whitespace is used to structure code, and indentation is used to indicate the level of code nesting.
